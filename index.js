@@ -27,6 +27,9 @@ for(i of buttons){
             displayScreen.value=screenValue;
         }
 
+        // randomize();
+        // vanshmode();
+
     });
 }
 
