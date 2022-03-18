@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+  padding: 10px;
+  /* width: 240px;
+  height: 355px; */
+}
+
+table {
+  margin: auto;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: medium;
+}
+
+input {
+  width: 205px;
+  height: 25px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-family: "Orbitron", sans-serif;
+  font-size: medium;
+}
+
+.calc {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+* {
+  font-family: "Orbitron", sans-serif;
+}
+
+.equals {
+  width: 50px;
+  height: 100px;
+  /* position:relative; */
+  float: right;
+}
+
+.leftdiv {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border: 10px solid yellow;
+}
+.rightdiv {
+  /* display: inline-block; */
+  background-color: black;
+
+  width: 100px;
+  height: 100px;
+  border: 5px solid yellow;
+}
+.pos{
+/* display: inline-block; */
+}
