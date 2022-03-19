@@ -42,7 +42,18 @@ input {
   /* position:relative; */
   float: right;
 }
-.plusminus{
-    width: 23px;
-    height: 50px;
+.plusminus {
+  width: 23px;
+  height: 50px;
+}
+
+.vmb {
+  opacity: 0;
+}
+.vm {
+  background-image: url("images/vansh.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position: center;
+  border: 1px solid black;
 }

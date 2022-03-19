@@ -8,8 +8,10 @@ for(i of buttons){
         buttonText = e.target.innerHTML;
         console.log(buttonText);
 
-
-        if(buttonText == 'X'){
+        if(buttonText == 'Vm'){
+            vanshmode();
+        }
+        else if(buttonText == 'X'){
             buttonText = '*';
             screenValue+=buttonText;
             displayScreen.value = screenValue;
@@ -17,18 +19,18 @@ for(i of buttons){
         else if(buttonText == 'C'){
             screenValue="";
             displayScreen.value = screenValue;
+            document.location.reload();
         }
         else if(buttonText == '='){
             displayScreen.value = eval(screenValue);
         }
-
         else{
             screenValue+=buttonText;
             displayScreen.value=screenValue;
         }
 
         // randomize();
-        // vanshmode();
+
 
     });
 }
@@ -42,3 +44,12 @@ for(i of buttons){
 //         document.querySelectorAll("button")[i].innerHTML = hel;
 //     }
 // }
+
+function vanshmode(){
+    var nums = document.querySelectorAll(".nums");
+    for(i of nums){
+        i.innerHTML = "69";
+    }
+    var audio = new Audio("sounds/Vm.mp3");
+    audio.play();
+}
