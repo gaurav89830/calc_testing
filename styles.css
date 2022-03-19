@@ -47,13 +47,28 @@ input {
   height: 50px;
 }
 
-.vmb {
+.hide {
   opacity: 0;
 }
 .vm {
+  border-radius: 5%;
   background-image: url("images/vansh.png");
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position: center;
+  /* border: 1px solid black; */
+}
+.rd {
+  border-radius: 5%;
+
+  background-image: url("images/random.png");
   background-repeat: no-repeat;
   background-size: 45px;
   background-position: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.invisible {
+  display: none;
+  opacity: 50%;
 }
